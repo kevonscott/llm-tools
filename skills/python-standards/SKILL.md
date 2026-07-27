@@ -38,7 +38,7 @@ def calculate_area(radius: float, shapeL str | None = "circle") -> float:
 
     Parameters
     ---------
-    raduis
+    radius
         The radius of the circle or side of the square.
     shape
         The type of shape ('circle' or 'square'). Default is 'circle'
