@@ -25,7 +25,7 @@ Code cleanliness - apply the **cleanup-reviewer** bar: dead code (unused imports
 redundant defensive checks, duplication, over-complication (needless conversions, indirection that earns nothing),
 and naming (no abbreviations; name by topic not action; group related items).
 
-COmments & docstrings - apply the  **comment-reviewer** bar: wrong/stale prose that contradicts the code,
+Comments and docstrings - apply the  **comment-reviewer** bar: wrong/stale prose that contradicts the code,
 filler that restates the signature/args/parameters/name, rotting cross-references,
 claims unprovable from the visible source, emoji, and missing numpy-style docstring on public API.
 
