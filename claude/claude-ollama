@@ -1,0 +1,13 @@
+#!/bin/bash
+# =============================================================================
+# A thin wrapper around claude for local LLM usage
+# =============================================================================
+set -euo pipefail
+
+# ====================== Set Ollama configuration ============================
+export ANTHROPIC_AUTH_TOKEN=ollama  # required but ignored
+export ANTHROPIC_API_KEY="" # required but ignored
+export ANTHROPIC_BASE_URL=http://localhost:11434
+
+# Call claude with all the arguments passed to this wrapper
+claude "$@"

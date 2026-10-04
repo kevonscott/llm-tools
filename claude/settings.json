@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "env": {
+    "CLAUDE_CODE_DISABLE_UNKNOWN_MODEL_WINDOW_ENFORCEMENT": "1",
+    "CLAUDE_CODE_MAX_CONTEXT_TOKENS": "1000000"
+  },
+  "modelPicker": {
+    "options": [
+        {
+            "model": "gpt-oss:20b",
+            "label": "gpt-oss:20b",
+            "description": "Local gpt-oss instance",
+            "behavesAs": "claude-sonnet-5"
+        }
+    ]
+  },
+  "autoApprove": [
+    "Read",
+    "Glob",
+    "Grep"
+  ],
+  "theme": "dark"
+}
